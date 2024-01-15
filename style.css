@@ -1,0 +1,79 @@
+HTML,
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar a {
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, .6) !important;
+}
+
+.landing-video {
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #fff;
+}
+
+.content {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  z-index: 10;
+}
+
+.who-are-we,
+.what-we-do {
+  color: #fff;
+  padding: 70px 30px;
+  text-align: center;
+}
+
+.who-are-we {
+  background: #2D9CD3;
+}
+
+.what-we-do {
+  background-color: #0B5ED7;
+}
+
+.deets {
+  background-image: url(who-we-are.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: left bottom;
+}
+
+.details {
+  background-image: url(what-we-do.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right bottom;
+}
+
+.logos {
+	padding-top: 50px;
+}
+
+.carousel-img {
+	height: 100px;
+}
+
+.usps {
+	padding-bottom: 50px;
+}
+
+.blogs,
+.reviews {
+	padding: 50px 0px;
+} 
